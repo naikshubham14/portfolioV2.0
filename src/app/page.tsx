@@ -65,6 +65,7 @@ export default function Page() {
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
+                gpa=""
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
