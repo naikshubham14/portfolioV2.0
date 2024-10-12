@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer. I love building things and helping people. Very active on LinkedIn.",
   summary:
     "I am a Software Engineer with Primary expertise in building scalable machine learning systems Also, experienced with building full stack generative AI-based applications.[I have a bachelors degree in computer engineering](/#education) and [Worked in few of the world's largest MNCs](/#work).",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.PNG",
   skills: [
     "Python",
     "Java",
@@ -64,7 +64,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:shubhamnaik321@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -137,7 +137,7 @@ export const DATA = {
       href: "https://kjsit.somaiya.edu.in/",
       degree: "Bachelor's Degree of Computer Engineering (BE)",
       GPA:"7.49",
-      logoUrl: "/waterloo.png",
+      logoUrl: "/kjsit.png",
       start: "2017",
       end: "2021",
     },
@@ -230,7 +230,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/RAG_bot.mp4",
+      video: "/RAG_Bot.mp4",
     },
     {
       title: "Resumagic",
