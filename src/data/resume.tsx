@@ -11,7 +11,7 @@ export const DATA = {
     "Software Engineer. I love building things and helping people. Very active on LinkedIn.",
   summary:
     "I am a Software Engineer with Primary expertise in building scalable machine learning systems Also, experienced with building full stack generative AI-based applications.[I have a bachelors degree in computer engineering](/#education) and [Worked in few of the world's largest MNCs](/#work).",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     "Python",
     "Java",
@@ -80,34 +80,34 @@ export const DATA = {
       location: "Banglore",
       title: "Software Development Engineer",
       gpa:"",
-      logoUrl: "/atomic.png",
+      logoUrl: "/accenture.png",
       start: "June 2021",
-      end: "Current",
+      end: "Present",
       description: 
-      `Project: ATCI Data & AI Studio
+      `Project: ATCI Data & AI Studio\n
       ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
-      and cut down search time for users by 15%, significantly boosting user retention.
+      and cut down search time for users by 15%, significantly boosting user retention.\n
       ● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
       legal approvers to evaluate and approve campaign content being published on the website. Reducing
       approval time per page from 4 hours to 2.5 hours which was directly responsible for the decrease in go-live
-      time and marketing campaigns.
+      time and marketing campaigns.\n
       ● Collaborated with over 12 projects to create standardized runbooks for the induction of generative AI tools,
-      significantly enhancing work efficiency while ensuring data integrity and compliance.
+      significantly enhancing work efficiency while ensuring data integrity and compliance.\n
       ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
-      GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit
+      GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit\n\n
 
-      Project: Roche Diagnostics
+      Project: Roche Diagnostics\n
       ● Developed content management system with multilingual support for drag-and-drop page authoring,
-      targeting campaigns, and executing workflows with custom components for Diagnostics company.
+      targeting campaigns, and executing workflows with custom components for Diagnostics company.\n
       ● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
       would yield maximum improvement. This led to increased page performance and quality score
-      (Lighthouse) by 135% and 30% tech debt reduction.
+      (Lighthouse) by 135% and 30% tech debt reduction.\n
       ● Migrated rich media hosting from Dynamic Media Classic to Scene7 to enhance media processing
       capabilities, accelerated image loading, and minimized dependency on device-specific image renditions,
-      resulting in a 50% drop in the size of media-heavy pages.
+      resulting in a 50% drop in the size of media-heavy pages.\n
       ● Created server cleanup utility responsible for clearing servers for long dormant pages and media to save
-      space and keep servers lightweight, leading to a 15% server bloat reduction.
+      space and keep servers lightweight, leading to a 15% server bloat reduction.\n
       ● Created an ITSM management framework, revamping ITSM handling procedures across the project,
       resulting in a 60% drop in incident/service request response time and over 90% drop in active
       incidents/tickets.`,
@@ -119,15 +119,15 @@ export const DATA = {
       location: "Remote",
       title: "Machine Learning Instructor",
       gpa:"",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/edurific.png",
       start: "July 2020",
       end: "January 2021",
       description:
-       `● Worked as an AI/ML Instructor and implemented end-to-end Machine Learning projects for integrating into courses.
-        ● Libraries worked with: Scikit Learn, TensorFlow, NumPy & Pandas, Keras, Flask, Streamlit.
-        ● Project Worked on: Time series analysis of Airways miles. Face mask detection module.
-        ● Delivered sessions on concepts in ML application development along with programming requisites.
-        ● Built Dialogflow Chatbot for streamlining content delivery.
+       `● Worked as an AI/ML Instructor and implemented end-to-end Machine Learning projects for integrating into courses.\n
+        ● Libraries worked with: Scikit Learn, TensorFlow, NumPy & Pandas, Keras, Flask, Streamlit.\n
+        ● Project Worked on: Time series analysis of Airways miles. Face mask detection module.\n
+        ● Delivered sessions on concepts in ML application development along with programming requisites.\n
+        ● Built Dialogflow Chatbot for streamlining content delivery.\n
         ● The projects created impacted over 700 students.`,
     },
   ],
@@ -146,7 +146,7 @@ export const DATA = {
     {
       title: "Rapid Data Profiler Tool",
       href: "https://dataprofilerservice.streamlit.app/",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Jan 2023 - Present",
       active: true,
       description:
         "Understanding your data before working with it is important. This lets you do just that. Generate comprehensive report to get insights in your data without spending a ton of time writing co",
@@ -171,7 +171,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://player.vimeo.com/video/1018887855?autoplay=true",
+        "/DataProfilerService.mp4",
     },
     {
       title: "Hyperparamter Tuner Tool",
@@ -201,12 +201,12 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://player.vimeo.com/video/1018887870?autoplay=true",
+      video: "/HyperParameterTuner.mp4",
     },
     {
       title: "Document Bot",
       href: "https://document-rag-bot.streamlit.app/",
-      dates: "April 2024 - Current",
+      dates: "April 2024 - Present",
       active: true,
       description:
         "Developed a RAG based application that lets you chat and question answer your documents.",
@@ -230,12 +230,12 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://player.vimeo.com/video/1018887880?autoplay=true",
+      video: "/RAG_bot.mp4",
     },
     {
       title: "Resumagic",
       href: "https://resumagic-bot.streamlit.app/",
-      dates: "August 2023 - Current",
+      dates: "August 2024 - Present",
       active: true,
       description:
         "Developed a resume reivew service which works as a one stop shop for all thing when applying to a job including Job Fit analysis, Resume Review, Keyword analysis and Custom Cover Letter Generation",
@@ -261,7 +261,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://player.vimeo.com/video/1018887898?autoplay=true",
+        "/resumemagic.mp4",
     },
   ],
 } as const;
