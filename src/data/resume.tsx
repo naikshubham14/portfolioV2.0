@@ -84,10 +84,10 @@ export const DATA = {
       start: "June 2021",
       end: "Present",
       description: 
-      `Project: ATCI Data & AI Studio\n
+      `Project: ATCI Data & AI Studio <br>
       ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
-      and cut down search time for users by 15%, significantly boosting user retention.\n
+      and cut down search time for users by 15%, significantly boosting user retention.<br>
       ● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
       legal approvers to evaluate and approve campaign content being published on the website. Reducing
       approval time per page from 4 hours to 2.5 hours which was directly responsible for the decrease in go-live
@@ -144,64 +144,39 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Rapid Data Profiler Tool",
-      href: "https://dataprofilerservice.streamlit.app/",
+      title: "RapidML Toolkit",
+      href: "https://naikshubham14.github.io/AMLToolkit-landing/",
       dates: "Jan 2023 - Present",
       active: true,
       description:
-        "Understanding your data before working with it is important. This lets you do just that. Generate comprehensive report to get insights in your data without spending a ton of time writing co",
+        `A suite of tools for rapid prototyping of machine learning applications for every step of development lifecycle.
+        EDA tool helps you get the complete sense of your data, Algorithm selector tool helps you decide which algorithm is best suited for your case, 
+        Hyperparameter Tuner helps you fix all the hyperparameters of the algorithm of your choice, and the performance calculator lets you assess your model on multiple matrices.`,
       technologies: [
         "Python",
         "Pandas",
         "NumPy",
         "Streamlit",
         "Scikit-Learn",
+        "XGBoost",
+        "MatplotLib",
+        "LightGBM"
       ],
       links: [
         {
           type: "Website",
-          href: "https://dataprofilerservice.streamlit.app/",
+          href: "https://naikshubham14.github.io/AMLToolkit-landing/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/naikshubham14/EDAapp",
+          href: "https://github.com/naikshubham14/AMLToolkit-landing",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "/DataProfilerService.mp4",
-    },
-    {
-      title: "Hyperparamter Tuner Tool",
-      href: "https://hyperparametertuner.streamlit.app/",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Created a tool for tunning hyper paramters of a machine learning model for rapid prototyping of classification tasks",
-      technologies: [
-        "Pythnon",
-        "Scikit-Learn",
-        "XGBoost",
-        "Pandas",
-        "Matplotlib",
-        "Streamlit",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://hyperparametertuner.streamlit.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/naikshubham14/HyperParameterTuner",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/HyperParameterTuner.mp4",
+        "/RapidML.mp4",
     },
     {
       title: "Document Bot",
@@ -231,6 +206,70 @@ export const DATA = {
       ],
       image: "",
       video: "/RAG_Bot.mp4",
+    },
+    {
+      title: "AgriSmart",
+      href: "https://agrismart.onrender.com/",
+      dates: "April 2022 - Present",
+      active: true,
+      description: `Agrismart is a service developed for Agricultural Department of Maharashtra for a regional precision agriculture initiative. Which will enable farmers to form their farming strategy by taking informed decision by recommending which crop to grow, which fertilizer to use and also estimating the health status of crop by Machine Learning models.
+      Developed by using Random Forest Classifier & XGBoost Classifier with OpenWeatherMap API and deployed using Flask. (Note: This is a replica of the actual service of the DoA)`,
+      technologies: [
+        "Python",
+        "SCikit-Learn",
+        "XGBoost",
+        "SciPy",
+        "Pandas",
+        "Numpy",
+        "Flask",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://agrismart.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/naikshubham14/AgriSmart",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/AgriSmart.mp4",
+    },
+    {
+      title: "PlaylistPilot",
+      href: "https://playlistpilot.streamlit.app/",
+      dates: "April 2023 - Present",
+      active: true,
+      description: `I have made a Spotify song recommendation engine where you can fine-tune parameters to find songs that suits your mood,
+      Danceability, Energy, Tempo you name it and we got the filter for it and you can filter the results for your favorite genre.
+      And you don't just get the name of the song, you get to hear a piece from it so you get to decide whether it's your jam`,
+      technologies: [
+        "Python",
+        "SCikit-Learn",
+        "KNN",
+        "SciPy",
+        "Pandas",
+        "Numpy",
+        "Streamlit",
+        "Spotify API",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://playlistpilot.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/naikshubham14/spotifySongRecommendationV2",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/PlaylistPilot.mp4",
     },
     {
       title: "Resumagic",
