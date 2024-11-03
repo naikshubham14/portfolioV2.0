@@ -8,7 +8,7 @@ export const DATA = {
   location: "Bengaluru, KA",
   locationLink: "https://www.google.com/maps/place/Bengaluru",
   description:
-    "Software Engineer. I love building things that create inmpact, I am quite active on LinkedIn so if you wanna chat, drop me a text.",
+    "Software Engineer. I love building things that create impact, I am quite active on LinkedIn so if you wanna chat, drop me a text.",
   summary:
     ` I am  a Software Development Engineer with over 3 years of experience specializing in developing machine learning systems with robust back end and optimized performance with stable 3rd party integrations.
     Skilled in Machine Learning, Generative AI, Python, Flask, REST APIs, and cloud platforms like Azure, with a strong focus on delivering scalable and innovative solutions. 
@@ -88,30 +88,30 @@ export const DATA = {
       end: "Present",
       description: 
       [`Project: ATCI Data & AI Studio`,
-      `● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
+      ` ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
       and cut down search time for users by 15%, significantly boosting user retention.`,
-      `● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
+      ` ● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
       legal approvers to evaluate and approve campaign content being published on the website. Reducing
       approval time per page from 4 hours to 2.5 hours which was directly responsible for the decrease in go-live
       time and marketing campaigns.`,
-      `● Collaborated with over 12 projects to create standardized runbooks for the induction of generative AI tools,
+      ` ● Collaborated with over 12 projects to create standardized runbooks for the induction of generative AI tools,
       significantly enhancing work efficiency while ensuring data integrity and compliance.`,
-      `● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
+      ` ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
       GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit`,
-
+      " ",
       `Project: Roche Diagnostics`,
-      `● Developed content management system with multilingual support for drag-and-drop page authoring,
+      ` ● Developed content management system with multilingual support for drag-and-drop page authoring,
       targeting campaigns, and executing workflows with custom components for Diagnostics company.`,
-      `● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
+      ` ● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
       would yield maximum improvement. This led to increased page performance and quality score
       (Lighthouse) by 135% and 30% tech debt reduction.`,
-      `● Migrated rich media hosting from Dynamic Media Classic to Scene7 to enhance media processing
+      ` ● Migrated rich media hosting from Dynamic Media Classic to Scene7 to enhance media processing
       capabilities, accelerated image loading, and minimized dependency on device-specific image renditions,
       resulting in a 50% drop in the size of media-heavy pages.`,
-      `● Created server cleanup utility responsible for clearing servers for long dormant pages and media to save
+      ` ● Created server cleanup utility responsible for clearing servers for long dormant pages and media to save
       space and keep servers lightweight, leading to a 15% server bloat reduction.`,
-      `● Created an ITSM management framework, revamping ITSM handling procedures across the project,
+      ` ● Created an ITSM management framework, revamping ITSM handling procedures across the project,
       resulting in a 60% drop in incident/service request response time and over 90% drop in active
       incidents/tickets.`],
     },
