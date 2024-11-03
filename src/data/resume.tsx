@@ -13,7 +13,7 @@ export const DATA = {
     ` I am  a Software Development Engineer with over 3 years of experience specializing in developing machine learning systems with robust back end and optimized performance with stable 3rd party integrations.
     Skilled in Machine Learning, Generative AI, Python, Flask, REST APIs, and cloud platforms like Azure, with a strong focus on delivering scalable and innovative solutions. 
     Excellent understanding of software development of life cycle phases such as requirement gathering, analysis, designs, development, and unit testing. 
-    with Knowledge of the Agile Software Development Cycle.[I have a bachelors degree in computer engineering](/#education). I have Worked on a some pretty interesting stuff both [proessionally](/#work) and [personally](/#projects) go ahead and check it out for yourself.`,
+    with Knowledge of the Agile Software Development Cycle.[I have a bachelors degree in computer engineering](/#education). I have Worked on a some pretty interesting stuff both [professionally](/#work) and [personally](/#projects) go ahead and check it out below.`,
   avatarUrl: "/me.PNG",
   skills: [
     "Python",
@@ -79,7 +79,7 @@ export const DATA = {
     {
       company: "Accenture",
       href: "https://www.accenture.com/",
-      badges: [],
+      badges: ["ACE-2023 Q3"],
       location: "Banglore",
       title: "Software Development Engineer",
       gpa:"",
@@ -87,33 +87,33 @@ export const DATA = {
       start: "June 2021",
       end: "Present",
       description: 
-      `Project: ATCI Data & AI Studio \n
-      ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
+      [`Project: ATCI Data & AI Studio`,
+      `● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
-      and cut down search time for users by 15%, significantly boosting user retention.\n
-      ● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
+      and cut down search time for users by 15%, significantly boosting user retention.`,
+      `● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
       legal approvers to evaluate and approve campaign content being published on the website. Reducing
       approval time per page from 4 hours to 2.5 hours which was directly responsible for the decrease in go-live
-      time and marketing campaigns.\n
-      ● Collaborated with over 12 projects to create standardized runbooks for the induction of generative AI tools,
-      significantly enhancing work efficiency while ensuring data integrity and compliance.\n
-      ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
-      GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit\n\n
+      time and marketing campaigns.`,
+      `● Collaborated with over 12 projects to create standardized runbooks for the induction of generative AI tools,
+      significantly enhancing work efficiency while ensuring data integrity and compliance.`,
+      `● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
+      GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit`,
 
-      Project: Roche Diagnostics\n
-      ● Developed content management system with multilingual support for drag-and-drop page authoring,
-      targeting campaigns, and executing workflows with custom components for Diagnostics company.\n
-      ● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
+      `Project: Roche Diagnostics`,
+      `● Developed content management system with multilingual support for drag-and-drop page authoring,
+      targeting campaigns, and executing workflows with custom components for Diagnostics company.`,
+      `● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
       would yield maximum improvement. This led to increased page performance and quality score
-      (Lighthouse) by 135% and 30% tech debt reduction.\n
-      ● Migrated rich media hosting from Dynamic Media Classic to Scene7 to enhance media processing
+      (Lighthouse) by 135% and 30% tech debt reduction.`,
+      `● Migrated rich media hosting from Dynamic Media Classic to Scene7 to enhance media processing
       capabilities, accelerated image loading, and minimized dependency on device-specific image renditions,
-      resulting in a 50% drop in the size of media-heavy pages.\n
-      ● Created server cleanup utility responsible for clearing servers for long dormant pages and media to save
-      space and keep servers lightweight, leading to a 15% server bloat reduction.\n
-      ● Created an ITSM management framework, revamping ITSM handling procedures across the project,
+      resulting in a 50% drop in the size of media-heavy pages.`,
+      `● Created server cleanup utility responsible for clearing servers for long dormant pages and media to save
+      space and keep servers lightweight, leading to a 15% server bloat reduction.`,
+      `● Created an ITSM management framework, revamping ITSM handling procedures across the project,
       resulting in a 60% drop in incident/service request response time and over 90% drop in active
-      incidents/tickets.`,
+      incidents/tickets.`],
     },
     {
       company: "Edurific",
@@ -125,13 +125,13 @@ export const DATA = {
       logoUrl: "/edurific.png",
       start: "July 2020",
       end: "January 2021",
-      description:
-       `● Worked as an AI/ML Instructor and implemented end-to-end Machine Learning projects for integrating into courses.\n
-        ● Libraries worked with: Scikit Learn, TensorFlow, NumPy & Pandas, Keras, Flask, Streamlit.\n
-        ● Project Worked on: Time series analysis of Airways miles. Face mask detection module.\n
-        ● Delivered sessions on concepts in ML application development along with programming requisites.\n
-        ● Built Dialogflow Chatbot for streamlining content delivery.\n
-        ● The projects created impacted over 700 students.`,
+      description:[
+       `● Worked as an AI/ML Instructor and implemented end-to-end Machine Learning projects for integrating into courses.`,
+        "● Libraries worked with: Scikit Learn, TensorFlow, NumPy & Pandas, Keras, Flask, Streamlit.",
+        "● Project Worked on: Time series analysis of Airways miles. Face mask detection module.",
+        "● Delivered sessions on concepts in ML application development along with programming requisites.",
+        "● Built Dialogflow Chatbot for streamlining content delivery.",
+        "● The projects created impacted over 700 students."],
     },
   ],
   education: [

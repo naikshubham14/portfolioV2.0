@@ -18,7 +18,7 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   gpa: string;
-  description?: string;
+  description?: string[];
 }
 export const ResumeCard = ({
   logoUrl,
@@ -102,7 +102,11 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              <ul>
+                {description.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </motion.div>
           )}
         </div>
