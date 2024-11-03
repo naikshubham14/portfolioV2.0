@@ -26,6 +26,7 @@ export const DATA = {
     "Flask",
     "REST",
     "Scikit-Learn",
+    "TensorFlow",
     "Pandas",
     "Numpy",
     "LangChain",
