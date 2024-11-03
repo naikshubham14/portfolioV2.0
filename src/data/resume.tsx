@@ -84,10 +84,10 @@ export const DATA = {
       start: "June 2021",
       end: "Present",
       description: 
-      `Project: ATCI Data & AI Studio <br>
+      `Project: ATCI Data & AI Studio \n
       ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
-      and cut down search time for users by 15%, significantly boosting user retention.<br>
+      and cut down search time for users by 15%, significantly boosting user retention.\n
       ● Designed and implemented a content approval system for a pharmaceutical client, enabling regulatory and
       legal approvers to evaluate and approve campaign content being published on the website. Reducing
       approval time per page from 4 hours to 2.5 hours which was directly responsible for the decrease in go-live
@@ -144,6 +144,37 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "ResuMagic",
+      href: "https://resumagic-bot.streamlit.app/",
+      dates: "August 2024 - Present",
+      active: true,
+      description:
+        "Developed a resume reivew service which works as a one stop shop for all thing when applying to a job including Job Fit analysis, Resume Review, Keyword analysis and Custom Cover Letter Generation",
+      technologies: [
+        "HuggingFace",
+        "Llama",
+        "Streamlit",
+        "Python",
+        "LangChain",
+        "NLP",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://resumagic-bot.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/naikshubham14/resume_bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/resumemagic.mp4",
+    },
+    {
       title: "RapidML Toolkit",
       href: "https://naikshubham14.github.io/AMLToolkit-landing/",
       dates: "Jan 2023 - Present",
@@ -177,35 +208,6 @@ export const DATA = {
       image: "",
       video:
         "/RapidML.mp4",
-    },
-    {
-      title: "Document Bot",
-      href: "https://document-rag-bot.streamlit.app/",
-      dates: "April 2024 - Present",
-      active: true,
-      description:
-        "Developed a RAG based application that lets you chat and question answer your documents.",
-      technologies: [
-        "OpenAI",
-        "LangChain",
-        "Vector DB",
-        "Streamlit",
-        "Python",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://document-rag-bot.streamlit.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/naikshubham14/RAG_BOT",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/RAG_Bot.mp4",
     },
     {
       title: "AgriSmart",
@@ -272,35 +274,33 @@ export const DATA = {
       video: "/PlaylistPilot.mp4",
     },
     {
-      title: "Resumagic",
-      href: "https://resumagic-bot.streamlit.app/",
-      dates: "August 2024 - Present",
+      title: "Document Bot",
+      href: "https://document-rag-bot.streamlit.app/",
+      dates: "April 2024 - Present",
       active: true,
       description:
-        "Developed a resume reivew service which works as a one stop shop for all thing when applying to a job including Job Fit analysis, Resume Review, Keyword analysis and Custom Cover Letter Generation",
+        "Developed a RAG based application that lets you chat and question answer your documents.",
       technologies: [
-        "HuggingFace",
-        "Llama",
+        "OpenAI",
+        "LangChain",
+        "Vector DB",
         "Streamlit",
         "Python",
-        "LangChain",
-        "NLP",
       ],
       links: [
         {
           type: "Website",
-          href: "https://resumagic-bot.streamlit.app/",
+          href: "https://document-rag-bot.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/naikshubham14/resume_bot",
+          href: "https://github.com/naikshubham14/RAG_BOT",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "/resumemagic.mp4",
+      video: "/RAG_Bot.mp4",
     },
   ],
 } as const;
