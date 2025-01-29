@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer. I love building things that create impact, I am quite active on LinkedIn so if you wanna chat, drop me a text.",
   summary:
-    ` I am  a Software Development Engineer with over 3 years of experience specializing in developing machine learning systems with robust back end and optimized performance with stable 3rd party integrations.
+    ` I am  a Machine Learning Engineer with over 4 years of experience specializing in developing machine learning systems with robust back end and optimized performance with stable 3rd party integrations.
     Skilled in Machine Learning, Generative AI, Python, Flask, REST APIs, and cloud platforms like Azure, with a strong focus on delivering scalable and innovative solutions. 
     Excellent understanding of software development of life cycle phases such as requirement gathering, analysis, designs, development, and unit testing. 
     with Knowledge of the Agile Software Development Cycle.[I have a bachelors degree in computer engineering](/#education). I have Worked on a some pretty interesting stuff both [professionally](/#work) and [personally](/#projects) go ahead and check it out below.`,
@@ -24,6 +24,7 @@ export const DATA = {
     "NLP",
     "SQL",
     "Flask",
+    "FastAPI",
     "REST",
     "Scikit-Learn",
     "TensorFlow",
@@ -35,6 +36,7 @@ export const DATA = {
     "Azure",
     "Vector DB",
     "NLTK",
+    "Spacy",
     "AEM",
     "OSGi",
     "Apache Sling",
@@ -82,7 +84,7 @@ export const DATA = {
       href: "https://www.accenture.com/",
       badges: ["ACE-2023 Q3"],
       location: "Banglore",
-      title: "Software Development Engineer",
+      title: "Machine Learning Engineer",
       gpa:"",
       logoUrl: "/accenture.png",
       start: "June 2021",
