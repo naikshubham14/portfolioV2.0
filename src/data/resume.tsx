@@ -80,6 +80,18 @@ export const DATA = {
 
   work: [
     {
+      company: "SAP",
+      badges: [],
+      href: "https://www.linkedin.com/company/sap/",
+      location: "Banglore",
+      title: "AI Engineer",
+      gpa:"",
+      logoUrl: "/sap.png",
+      start: "March 2025",
+      end: "Present",
+      description:[],
+    },
+    {
       company: "Accenture",
       href: "https://www.accenture.com/",
       badges: ["ACE-2023 Q3"],
@@ -88,7 +100,7 @@ export const DATA = {
       gpa:"",
       logoUrl: "/accenture.png",
       start: "June 2021",
-      end: "Present",
+      end: "March 2025",
       description: 
       [`Project: ATCI Data & AI Studio`,
       ` ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
