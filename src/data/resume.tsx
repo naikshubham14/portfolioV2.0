@@ -90,14 +90,14 @@ export const DATA = {
       start: "March 2025",
       end: "Present",
       description:[
-        `SAP Joule:`,
-         `Creating SAP’s flagship agentic solution working as a copilot embedded in SAP product ecosystem providing seamless
+        `<b>Project: SAP Joule<b>`,
+        `● Creating SAP’s flagship agentic solution working as a copilot embedded in SAP product ecosystem providing seamless
         connectivity and unified experience across products.`,
-        `• Worked on Joule for Developer (J4D) intended for for accelerating migration of legacy ECC code to the S/4 Hana cloud
+        `● Worked on Joule for Developer (J4D) intended for for accelerating migration of legacy ECC code to the S/4 Hana cloud
         environment by implementing end to end code generation pipeline reducing migration timelines by 35%`,
-        `• Finetuning open source foundation models like Codestral, Starcoder for specific usecase including text-to-code and
+        `● Finetuning open source foundation models like Codestral, Starcoder for specific usecase including text-to-code and
         code-to-code usecases.`,
-        `• Created a benchmarking framework for code quality assessment with dynamic unit tests, syntax checks and
+        `● Created a benchmarking framework for code quality assessment with dynamic unit tests, syntax checks and
         LLM-as-a-judge manual evaluation dependency and improving feature shipping time by 15%`
       ],
     },
@@ -112,7 +112,7 @@ export const DATA = {
       start: "June 2021",
       end: "March 2025",
       description: 
-      [`Project: ATCI Data & AI Studio`,
+      [`<b>Project: ATCI Data & AI Studio<b>`,
       ` ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
       and cut down search time for users by 15%, significantly boosting user retention.`,
@@ -125,7 +125,7 @@ export const DATA = {
       ` ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
       GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit`,
       "________________________________________________________________________________________________________________ ",
-      `Project: Roche Diagnostics`,
+      `<b>Project: Roche Diagnostics<b>`,
       ` ● Developed content management system with multilingual support for drag-and-drop page authoring,
       targeting campaigns, and executing workflows with custom components for Diagnostics company.`,
       ` ● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
