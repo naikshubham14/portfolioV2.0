@@ -124,7 +124,7 @@ export const DATA = {
       significantly enhancing work efficiency while ensuring data integrity and compliance.`,
       ` ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
       GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit`,
-      " ",
+      "________________________________________________________________________________________________________________ ",
       `Project: Roche Diagnostics`,
       ` ● Developed content management system with multilingual support for drag-and-drop page authoring,
       targeting campaigns, and executing workflows with custom components for Diagnostics company.`,
