@@ -112,7 +112,7 @@ export const DATA = {
       start: "June 2021",
       end: "March 2025",
       description: 
-      [`<b>Project: ATCI Data & AI Studio<b>`,
+      [`Project: ATCI Data & AI Studio`,
       ` ● Developed a procedure to transform the existing content of an enterprise-level website into an indexed
       vector database, creating a knowledge base for a RAG-enabled chatbot which served as a quick search tool
       and cut down search time for users by 15%, significantly boosting user retention.`,
@@ -125,7 +125,7 @@ export const DATA = {
       ` ● Deployed generative AI POCs in working with large language models such as Llama-2/3, Mistral and
       GPT-3.5/4 augmenting with Vector Database with frameworks like LangChain and StreamLit`,
       "________________________________________________________________________________________________________________ ",
-      `<b>Project: Roche Diagnostics<b>`,
+      `Project: Roche Diagnostics`,
       ` ● Developed content management system with multilingual support for drag-and-drop page authoring,
       targeting campaigns, and executing workflows with custom components for Diagnostics company.`,
       ` ● Analyzed and revamped the existing application to identify system bottlenecks to identify changes that
