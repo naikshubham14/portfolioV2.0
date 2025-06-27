@@ -90,7 +90,7 @@ export const DATA = {
       start: "March 2025",
       end: "Present",
       description:[
-        `<b>Project: SAP Joule<b>`,
+        `Project: SAP Joule`,
         `● Creating SAP’s flagship agentic solution working as a copilot embedded in SAP product ecosystem providing seamless
         connectivity and unified experience across products.`,
         `● Worked on Joule for Developer (J4D) intended for for accelerating migration of legacy ECC code to the S/4 Hana cloud
