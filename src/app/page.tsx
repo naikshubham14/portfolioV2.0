@@ -171,7 +171,7 @@ export default function Page() {
                   className="text-blue-500 hover:underline"
                 >
                 </Link>{" "}
-                and I&apos;ll respond whenever as soon as possible.
+                and I&apos;ll respond as soon as possible.
               </p>
             </div>
           </BlurFade>

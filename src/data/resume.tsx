@@ -89,7 +89,17 @@ export const DATA = {
       logoUrl: "/sap.png",
       start: "March 2025",
       end: "Present",
-      description:[],
+      description:[
+        `SAP Joule:`,
+         `Creating SAP’s flagship agentic solution working as a copilot embedded in SAP product ecosystem providing seamless
+        connectivity and unified experience across products.`,
+        `• Worked on Joule for Developer (J4D) intended for for accelerating migration of legacy ECC code to the S/4 Hana cloud
+        environment by implementing end to end code generation pipeline reducing migration timelines by 35%`,
+        `• Finetuning open source foundation models like Codestral, Starcoder for specific usecase including text-to-code and
+        code-to-code usecases.`,
+        `• Created a benchmarking framework for code quality assessment with dynamic unit tests, syntax checks and
+        LLM-as-a-judge manual evaluation dependency and improving feature shipping time by 15%`
+      ],
     },
     {
       company: "Accenture",
